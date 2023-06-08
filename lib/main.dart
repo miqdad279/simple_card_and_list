@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_card_and_list/card_view_screen.dart';
+import 'package:simple_card_and_list/tugas.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CardViewScreen(),
+      home: const TugasScreen(),
     );
   }
 }
